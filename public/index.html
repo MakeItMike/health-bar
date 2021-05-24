@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Bar</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <div id="items">
+        <h1 id="progress-title">Health Bar</h1>
+
+        <progress id="health-bar" value="100" min="0" max="100"></progress>
+
+        <div id="buttons">
+            <button id="damage" onclick="healthBar(1)">Damage</button>
+            <button id="heal" onclick="healthBar(2)">Heal</button>
+        </div>
+
+    </div>
+</body>
+</html>

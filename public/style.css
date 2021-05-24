@@ -1,0 +1,64 @@
+body, html {
+    background: black;
+}
+
+/* Health Bar */
+
+#health-bar {
+    background: grey;
+    padding: 3px;
+    width: 250px;
+    height: 20px;
+    transition: color 0.25s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#health-bar::-webkit-progress-value {
+    background: green;
+}
+
+#progress-title {
+    color: white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+
+/* Buttons */
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#damage {
+    color: red;
+    margin-right: 15px;
+}
+
+#damage:hover {
+    outline: groove;
+}
+
+#heal {
+    color: green;
+    margin-left: 15px;
+}
+
+#heal:hover {
+    outline: groove;
+}
+
